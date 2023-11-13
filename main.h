@@ -7,7 +7,7 @@
 #include <string.h>
 
 /**
- * struct specifier - a structer of specifiers
+ * struct specifiers - a structer of specifiers
  * and functions which print it.
  * @sp: the specifier symbole.
  * @f: the function which print it.

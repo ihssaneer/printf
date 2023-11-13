@@ -2,13 +2,14 @@
 
 /**
  * get_specifier - jjjj
- * @agrs: ggggggg
+ * @args: ggggggg
  * @spf: hhhhh
  * Return: kkk
  */
 int get_specifier(va_list args, char spf)
 {
-	long unsigned int i = 0, lenth = 0;
+	unsigned int i = 0;
+	int lenth = 0;
 	specifier_t specifier[] = {
 		{'c', print_char},
 		{'s', print_string},
