@@ -3,7 +3,7 @@
 /**
  * check_format - bbbbb
  * @format: jjjjjj
- * @va_liste: kkkkkkk
+ * @args: kkkkkkk
  * Return: intt
  */
 int check_format(const char *format, va_list args)
