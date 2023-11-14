@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * get_specifier - jjjj
- * @args: ggggggg
- * @spf: hhhhh
- * Return: kkk
+ * get_specifier - function pointer that select the correct function
+ * @args: the argument specifer format
+ * @spf: the specifier character
+ * Return: the length of argument print
  */
 int get_specifier(va_list args, char spf)
 {

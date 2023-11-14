@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_char - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_char - function that print onre character
+ * @args: argument to print
+ * Return: the character printed
  */
 int print_char(va_list args)
 {
@@ -14,9 +14,9 @@ int print_char(va_list args)
 }
 
 /**
- * print_K - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_K - function that prints the special character
+ * @args: argument to print
+ * Return: the special character printed
  */
 int print_K(va_list args)
 {
@@ -26,9 +26,9 @@ int print_K(va_list args)
 }
 
 /**
- * print_ex - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_ex - function that prints the exclamation character
+ * @args: argument to print
+ * Return: the printed character
  */
 int print_ex(va_list args)
 {
@@ -38,9 +38,9 @@ int print_ex(va_list args)
 }
 
 /**
- * print_per - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_per - function that prints the specific character
+ * @args: argument to print
+ * Return: the printed specific character
  */
 int print_per(va_list args)
 {
@@ -50,9 +50,9 @@ int print_per(va_list args)
 }
 
 /**
- * print_string - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_string - function that prints string of character
+ * @args: argument to print
+ * Return: the length of the printed string character 
  */
 int print_string(va_list args)
 {

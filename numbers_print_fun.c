@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_int - hjdsjhc
- * @args: jfjk
- * Return: sfjh
+ * print_int - Function to print argument
+ * @args: argument to print
+ * Return: length of argument printed
  */
 int print_int(va_list args)
 {
