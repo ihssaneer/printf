@@ -18,6 +18,7 @@ int get_specifier(va_list args, char spf)
 		{'!', print_ex},
 		{'i', print_int},
 		{'d', print_int},
+		{'b', print_binary},
 		{'\0', NULL}};
 
 	while (specifier[i].sp != '\0')
