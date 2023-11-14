@@ -7,6 +7,12 @@
  */
 int main(void)
 {
-    _printf("%b\n", 98);
+    int l1;
+    l1 = _printf("%b\n", 98);
+    printf("\n");
+    /*
+    l2 = printf("%b\n", 98);
+    */
+    printf("l1: %d\n", l1);
     return (0);
 }
