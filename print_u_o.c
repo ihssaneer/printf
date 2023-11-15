@@ -33,3 +33,4 @@ int calculat_octal(unsigned int num)
 
 	return (lenth);
 }
+/*khanjij & ihssaneer*/

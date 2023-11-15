@@ -55,17 +55,17 @@ int print_per(va_list args)
  */
 int print_string(va_list args)
 {
-	char *str;
 	int lenth = 0;
+	char *str = va_arg(args, char *);
 
-	str = va_arg(args, char *);
-	if (!str)
+	if (str == NULL)
+		str = "(null)";
+
+	while (*str != '\0')
 	{
-		write(1, "(null)", 6);
-		return (6);
+		lenth += _putchar(*str);
+		str++;
 	}
-	lenth = strlen(str);
-	write(1, str, lenth);
 	return (lenth);
 }
 /*khanjij & ihssaneer*/

@@ -52,3 +52,4 @@ int print_hex_upper(unsigned int num)
 		lenth += _putchar(num % 16 - 10 + 'A');
 	return (lenth);
 }
+/*khanjij & ihssaneer*/
