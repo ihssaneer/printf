@@ -3,7 +3,8 @@
 /**
  * _printf - Custom printf function.
  * @format: Format string.
- * Return: jdhsfj
+ * Return: The number of characters printed
+ * (excluding null byte).
  */
 int _printf(const char *format, ...)
 {
@@ -17,3 +18,4 @@ int _printf(const char *format, ...)
 	va_end(args);
 	return (lenth);
 }
+/*khanjij & ihssaneer*/

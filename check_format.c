@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * check_format - bbbbb
- * @format: jjjjjj
- * @args: kkkkkkk
- * Return: intt
+ * check_format - Parses and processes a
+ * formatted string with variable arguments.
+ * @format: A va_list of variable arguments to be formatted.
+ * @args: A va_list of variable arguments to be formatted.
+ * Return: The total length of the formatted output.
  */
 int check_format(const char *format, va_list args)
 {
@@ -25,3 +26,4 @@ int check_format(const char *format, va_list args)
 	}
 	return (lenth);
 }
+/*khanjij & ihssaneer*/

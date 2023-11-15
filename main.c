@@ -1,4 +1,6 @@
 #include "main.h"
+#include <limits.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -7,12 +9,10 @@
  */
 int main(void)
 {
-    int l1;
-    l1 = _printf("%b\n", 98);
-    printf("\n");
-    /*
-    l2 = printf("%b\n", 98);
-    */
-    printf("l1: %d\n", l1);
+    int u, i;
+
+    u = _printf("[d : i] - [%d : %i]\n", -1234567890, -1234567890);
+    i = printf("[d : i] - [%d : %i]\n", -1234567890, -1234567890);
+    printf(" :[%d : %i]\n", u, i);
     return (0);
 }

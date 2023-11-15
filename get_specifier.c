@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * get_specifier - function pointer that select the correct function
- * @args: the argument specifer format
- * @spf: the specifier character
- * Return: the length of argument print
+ * get_specifier - Selects the appropriate function
+ * for a given format specifier.
+ * @args: a va_list containing the arguments to be formatted.
+ * @spf: the format specifier character.
+ * Return: the length of the formatted output.
  */
 int get_specifier(va_list args, char spf)
 {
@@ -19,6 +20,7 @@ int get_specifier(va_list args, char spf)
 		{'i', print_int},
 		{'d', print_int},
 		{'b', print_binary},
+		{'u', print_unsigned_int},
 		{'\0', NULL}};
 
 	while (specifier[i].sp != '\0')
@@ -32,3 +34,4 @@ int get_specifier(va_list args, char spf)
 	}
 	return (lenth);
 }
+/*khanjij & ihssaneer*/
