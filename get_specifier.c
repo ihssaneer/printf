@@ -21,6 +21,9 @@ int get_specifier(va_list args, char spf)
 		{'d', print_int},
 		{'b', print_binary},
 		{'u', print_unsigned_int},
+		{'o', print_octal},
+		{'x', handle_hex_lower},
+		{'X', handle_hex_upper},
 		{'\0', NULL}};
 
 	while (specifier[i].sp != '\0')

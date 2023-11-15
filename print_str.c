@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * print_char - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_char - Print a character to the standard output.
+ * @args: A variable argument list.
+ * Return: 1 on success -1 on failure.
  */
 int print_char(va_list args)
 {
@@ -14,9 +13,9 @@ int print_char(va_list args)
 }
 
 /**
- * print_K - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_K - prints K.
+ * @args: A variable argument list.
+ * Return: return 2 on success and 0 on failure.
  */
 int print_K(va_list args)
 {
@@ -26,9 +25,9 @@ int print_K(va_list args)
 }
 
 /**
- * print_ex - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_ex - prints !.
+ * @args: A variable argument list.
+ * Return: return 2 on success and 0 on failure.
  */
 int print_ex(va_list args)
 {
@@ -38,9 +37,9 @@ int print_ex(va_list args)
 }
 
 /**
- * print_per - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_per - print %.
+ * @args: A variable argument list.
+ * Return: return 1 on success and 0 on failure.
  */
 int print_per(va_list args)
 {
@@ -50,9 +49,9 @@ int print_per(va_list args)
 }
 
 /**
- * print_string - kkkkk
- * @args: ghhhhh
- * Return: jjjjj
+ * print_string - print a string to stdout.
+ * @args: A variable argument list contining a sting.
+ * Return: the lenth of the printed string.
  */
 int print_string(va_list args)
 {
@@ -69,3 +68,4 @@ int print_string(va_list args)
 	write(1, str, lenth);
 	return (lenth);
 }
+/*khanjij & ihssaneer*/

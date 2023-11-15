@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * print_unsigned_int - Prints an unsigned integer to stdout
- * @n: The unsigned integer to print
- *
+ * @args: The unsigned integer to print
  * Return: Number of characters printed (excluding null byte)
  */
 int print_unsigned_int(va_list args)

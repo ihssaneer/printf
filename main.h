@@ -36,12 +36,10 @@ int print_positive_num(unsigned int num);
 int print_binary(va_list args);
 int calculat_binary(unsigned int n);
 int print_unsigned_int(va_list args);
-int print_unsigned_helper(unsigned int n);
 int print_octal(va_list args);
-int print_hex_lower(va_list args);
-int print_hex_upper(va_list args);
-int print_rev(va_list args);
-int print_rot13(va_list args);
-int print_adres(va_list args);
-
+int calculat_octal(unsigned int num);
+int handle_hex_lower(va_list args);
+int handle_hex_upper(va_list args);
+int print_hex_lower(unsigned int num);
+int print_hex_upper(unsigned int num);
 #endif /*PRINTF_H*/
