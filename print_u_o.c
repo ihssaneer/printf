@@ -27,7 +27,7 @@ int calculat_octal(unsigned int num)
 	int lenth = 0;
 
 	if (num / 8 != 0)
-		lenth += print_octal(num / 8);
+		lenth += calculat_octal(num / 8);
 
 	lenth += _putchar(num % 8 + '0');
 

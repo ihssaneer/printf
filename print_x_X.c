@@ -16,7 +16,7 @@ int handle_hex_lower(va_list args)
  */
 int handle_hex_upper(va_list args)
 {
-	return (handle_hex_upper(va_arg(args, unsigned int)));
+	return (print_hex_upper(va_arg(args, unsigned int)));
 }
 /**
  * print_hex_lower - Prints an unsigned integer in lowercase hexadecimal.
